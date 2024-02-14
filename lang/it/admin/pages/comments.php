@@ -7,43 +7,75 @@ return [
     | Admin Blog Translation
     |--------------------------------------------------------------------------
     */
+    'classes_comments' => 'Commenti del Corso',
 
-    'classes_comments' => 'Course Comments',
-    'blog_comments' => 'Blog Comments',
-    'comments' => 'Comments',
-    'comment' => 'Comment',
+    'blog_comments' => 'Commenti del Blog',
+
+    'comments' => 'Commenti',
+
+    'comment' => 'Commento',
+
     'post' => 'Post',
-    'post_or_webinar' => 'Post or webinar',
-    'enable_comments' => 'Enable Comments',
-    'publish_item' => 'Publish item',
-    'content' => 'Content',
-    'content_placeholder' => 'Main Content',
-    'description_placeholder' => 'choose a short description',
-    'reply' => 'Reply',
-    'replied' => 'Replied',
-    'comment_type' => 'comment type',
-    'main_comment' => 'Main comment',
-    'reply_comment' => 'Reply comment',
-    'reply_comments' => 'Reply comments',
-    'reply_list' => 'Reply list',
-    'edit_comment' => 'Edit comment',
 
-    'reports' => 'reports',
-    'classes_comments_reports' => 'Course Comments',
-    'classes_reports' => 'Course reports',
-    'blog_comments_reports' => 'Blog Comments reports',
-    'comments_reports' => 'Comment reports',
-    'reported_comment' => 'Reported comment',
-    'report_detail' => 'Report details',
-    'report_message' => 'Report message',
-    'comments_lists_lead' => 'List of blog comments. You can edit or delete any row.',
-    'comments_reports_lists_lead' => 'List of comments reports. You can edit or delete any row.',
-    'author' => 'Author',
+    'post_or_webinar' => 'Post o webinar',
 
-    'testimonials' => 'Testimonials',
-    'new_testimonial' => 'New testimonial',
-    'edit_testimonial' => 'Edit testimonial',
-    'testimonials_lists_lead' => 'List of testimonials comments. You can edit or delete any row.',
-    'testimonial_user_avatar_placeholder' => 'empty means use users default avatar',
-    'testimonial_rate_placeholder' => 'number between 0 to 5',
+    'enable_comments' => 'Abilita Commenti',
+
+    'publish_item' => 'Pubblica elemento',
+
+    'content' => 'Contenuto',
+
+    'content_placeholder' => 'Contenuto Principale',
+
+    'description_placeholder' => 'scegli una breve descrizione',
+
+    'reply' => 'Rispondi',
+
+    'replied' => 'Risposto',
+
+    'comment_type' => 'tipo di commento',
+
+    'main_comment' => 'Commento principale',
+
+    'reply_comment' => 'Rispondi al commento',
+
+    'reply_comments' => 'Rispondi ai commenti',
+
+    'reply_list' => 'Lista risposte',
+
+    'edit_comment' => 'Modifica commento',
+
+    'reports' => 'rapporti',
+
+    'classes_comments_reports' => 'Commenti del Corso',
+
+    'classes_reports' => 'Rapporti del Corso',
+
+    'blog_comments_reports' => 'Rapporti dei Commenti del Blog',
+
+    'comments_reports' => 'Rapporti dei Commenti',
+
+    'reported_comment' => 'Commento segnalato',
+
+    'report_detail' => 'Dettagli della segnalazione',
+
+    'report_message' => 'Messaggio della segnalazione',
+
+    'comments_lists_lead' => 'Lista dei commenti del blog. Puoi modificare o eliminare qualsiasi riga.',
+
+    'comments_reports_lists_lead' => 'Lista delle segnalazioni dei commenti. Puoi modificare o eliminare qualsiasi riga.',
+
+    'author' => 'Autore',
+
+    'testimonials' => 'Testimonianze',
+
+    'new_testimonial' => 'Nuova testimonianza',
+
+    'edit_testimonial' => 'Modifica testimonianza',
+
+    'testimonials_lists_lead' => 'Lista dei commenti delle testimonianze. Puoi modificare o eliminare qualsiasi riga.',
+
+    'testimonial_user_avatar_placeholder' => 'vuoto significa usare avatar predefinito dell utente',
+
+'testimonial_rate_placeholder' => 'numero tra 0 a 5',
 ];

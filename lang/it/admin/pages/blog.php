@@ -9,16 +9,16 @@ return [
     */
 
     'blog' => 'Blog',
-    'blog_categories' => 'Blog Categories',
-    'create_category' => 'New Blog Category',
-    'page_lists_lead' => 'List of blog posts. You can edit or delete any row.',
-    'comments_lists_lead' => 'List of blog comments. You can edit or delete any row.',
-    'comments_reports_lists_lead' => 'List of comments reports. You can edit or delete any row.',
-    'author' => 'Author',
-    'create_blog' => 'New Blog Post',
-    'new_post' => 'New Blog Post',
-    'edit_blog' => 'Edit Blog Post',
-    'comments_section' => 'Enable Comments',
-    'meta_description' => 'SEO Meta Description',
-    'meta_description_placeholder' => '155~160 Characters.',
+    'blog_categories' => 'Categorie del Blog',
+    'create_category' => 'Nuova Categoria del Blog',
+    'page_lists_lead' => 'Lista di articoli del blog. Puoi modificare o eliminare qualsiasi riga.',
+    'comments_lists_lead' => 'Lista di commenti del blog. Puoi modificare o eliminare qualsiasi riga.',
+    'comments_reports_lists_lead' => 'Lista di segnalazioni dei commenti. Puoi modificare o eliminare qualsiasi riga.',
+    'author' => 'Autore',
+    'create_blog' => 'Nuovo Articolo del Blog',
+    'new_post' => 'Nuovo Articolo del Blog',
+    'edit_blog' => 'Modifica Articolo del Blog',
+    'comments_section' => 'Abilita Commenti',
+    'meta_description' => 'Meta Descrizione SEO',
+    'meta_description_placeholder' => '155~160 Caratteri.'
 ];

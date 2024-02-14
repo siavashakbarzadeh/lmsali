@@ -8,35 +8,61 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'categories_list_page_title' => 'Categories List',
-    'category' => 'Category',
-    'categories' => 'Categories',
-    'choose_category' => 'Select a Category',
-    'name' => 'Name',
-    'title' => 'Title',
-    'tags_count' => 'Tags',
-    'new_page_lead' => 'You can create a new category.',
-    'parent_name' => 'Parent Name',
-    'select_parent_name' => 'choose parent name',
-    'categories_count' => 'Categories count',
-    'page_lists_lead' => 'List of categories. You can edit or delete any row.',
-    'trends_lists_lead' => 'List of trend categories. You can edit or delete any row.',
-    'sub_category' => 'Sub category',
-    'has_sub_category' => 'Has sub categories',
-    'add_sub_categories' => 'Add sub categories',
-    'add' => 'Add',
-    'remove' => 'Remove',
+    'categories_list_page_title' => 'Elenco Categorie',
 
-    'admin_categories' => 'Categories',
-    'admin_categories_list' => 'Categories List',
-    'admin_categories_create' => 'Categories Create',
-    'admin_categories_edit' => 'Categories Edit',
-    'admin_categories_delete' => 'Categories Delete',
+    'category' => 'Categoria',
 
-    'trends' => 'Trends',
-    'new_trend' => 'New trend',
-    'trend_icon' => 'Trend icon',
-    'trend_color' => 'Trend color',
-    'trend_color_placeholder' => 'like: #3dbca7 or rgb(0,0,0)',
-    'create_trend_category' => 'Create trend category',
+    'categories' => 'Categorie',
+
+    'choose_category' => 'Seleziona una Categoria',
+
+    'name' => 'Nome',
+
+    'title' => 'Titolo',
+
+    'tags_count' => 'Tag',
+
+    'new_page_lead' => 'Puoi creare una nuova categoria.',
+
+    'parent_name' => 'Nome Genitore',
+
+    'select_parent_name' => 'scegli nome genitore',
+
+    'categories_count' => 'Conteggio Categorie',
+
+    'page_lists_lead' => 'Lista delle categorie. Puoi modificare o eliminare qualsiasi riga.',
+
+    'trends_lists_lead' => 'Lista delle categorie di tendenza. Puoi modificare o eliminare qualsiasi riga.',
+
+    'sub_category' => 'Sottocategoria',
+
+    'has_sub_category' => 'Ha sottocategorie',
+
+    'add_sub_categories' => 'Aggiungi sottocategorie',
+
+    'add' => 'Aggiungi',
+
+    'remove' => 'Rimuovi',
+
+    'admin_categories' => 'Categorie',
+
+    'admin_categories_list' => 'Elenco Categorie',
+
+    'admin_categories_create' => 'Crea Categorie',
+
+    'admin_categories_edit' => 'Modifica Categorie',
+
+    'admin_categories_delete' => 'Elimina Categorie',
+
+    'trends' => 'Tendenze',
+
+    'new_trend' => 'Nuova tendenza',
+
+    'trend_icon' => 'Icona di tendenza',
+
+    'trend_color' => 'Colore di tendenza',
+
+    'trend_color_placeholder' => 'esempio: #3dbca7 o rgb(0,0,0)',
+
+    'create_trend_category' => 'Crea categoria di tendenza',
 ];

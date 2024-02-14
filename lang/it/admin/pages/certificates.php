@@ -8,24 +8,41 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'certificate_list_page_title' => 'Certificates list',
-    'certificate' => 'Certificate',
-    'title' => 'Title',
-    'tags_count' => 'Tags count',
-    'new_page_lead' => 'You can create a new certificate.',
-    'parent_name' => 'Parent Name',
-    'select_parent_name' => 'choose parent name',
-    'certificate_count' => 'Certificates count',
-    'page_lists_lead' => 'List of certificate. You can edit or delete any row.',
-    'sub_certificate' => 'Sub certificate',
-    'has_sub_certificate' => 'Has sub certificate',
-    'add_sub_certificate' => 'Add sub certificate',
-    'add' => 'Add',
-    'remove' => 'Remove',
+    'certificate_list_page_title' => 'Elenco Certificati',
 
-    'admin_certificate' => 'Certificate',
-    'admin_certificate_list' => 'Certificate List',
-    'admin_certificate_create' => 'Certificate Create',
-    'admin_certificate_edit' => 'Certificate Edit',
-    'admin_certificate_delete' => 'Certificate Delete',
+    'certificate' => 'Certificato',
+
+    'title' => 'Titolo',
+
+    'tags_count' => 'Conteggio Tag',
+
+    'new_page_lead' => 'Puoi creare un nuovo certificato.',
+
+    'parent_name' => 'Nome Genitore',
+
+    'select_parent_name' => 'scegli nome genitore',
+
+    'certificate_count' => 'Conteggio Certificati',
+
+    'page_lists_lead' => 'Lista dei certificati. Puoi modificare o eliminare qualsiasi riga.',
+
+    'sub_certificate' => 'Sotto-certificato',
+
+    'has_sub_certificate' => 'Ha sotto-certificato',
+
+    'add_sub_certificate' => 'Aggiungi sotto-certificato',
+
+    'add' => 'Aggiungi',
+
+    'remove' => 'Rimuovi',
+
+    'admin_certificate' => 'Certificato',
+
+    'admin_certificate_list' => 'Elenco Certificati',
+
+    'admin_certificate_create' => 'Crea Certificato',
+
+    'admin_certificate_edit' => 'Modifica Certificato',
+
+    'admin_certificate_delete' => 'Elimina Certificato',
 ];
