@@ -8,25 +8,43 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'payment_channels' => 'Payment Channels',
-    'payment_channel' => 'Payment Channel',
-    'payment_channel_edit' => 'Edit payment Channel',
-    'title' => 'Title',
-    'tags_count' => 'Tags count',
-    'new_page_lead' => 'You can create a new payment_channel.',
-    'parent_name' => 'Parent Name',
-    'select_parent_name' => 'choose parent name',
-    'payment_channel_count' => 'Categories count',
-    'page_lists_lead' => 'List of payment_channel. You can edit or delete any row.',
-    'sub_payment_channel' => 'Sub payment_channel',
-    'has_sub_payment_channel' => 'Has sub payment_channel',
-    'add_sub_payment_channel' => 'Add sub payment_channel',
-    'add' => 'Add',
-    'remove' => 'Remove',
+    'payment_channels' => 'Canali di Pagamento',
 
-    'admin_payment_channel' => 'Payment Channels',
-    'admin_payment_channel_list' => 'Payment Channels List',
-    'admin_payment_channel_create' => 'Payment Channels Create',
-    'admin_payment_channel_edit' => 'Payment Channels Edit',
-    'admin_payment_channel_delete' => 'Payment Channels Delete',
+    'payment_channel' => 'Canale di Pagamento',
+
+    'payment_channel_edit' => 'Modifica Canale di Pagamento',
+
+    'title' => 'Titolo',
+
+    'tags_count' => 'Conteggio Tag',
+
+    'new_page_lead' => 'Puoi creare un nuovo canale di pagamento.',
+
+    'parent_name' => 'Nome Genitore',
+
+    'select_parent_name' => 'scegli nome genitore',
+
+    'payment_channel_count' => 'Conteggio Categorie',
+
+    'page_lists_lead' => 'Lista dei canali di pagamento. Puoi modificare o eliminare qualsiasi riga.',
+
+    'sub_payment_channel' => 'Sotto-canale di pagamento',
+
+    'has_sub_payment_channel' => 'Ha sotto-canali di pagamento',
+
+    'add_sub_payment_channel' => 'Aggiungi sotto-canale di pagamento',
+
+    'add' => 'Aggiungi',
+
+    'remove' => 'Rimuovi',
+
+    'admin_payment_channel' => 'Canali di Pagamento',
+
+    'admin_payment_channel_list' => 'Lista Canali di Pagamento',
+
+    'admin_payment_channel_create' => 'Crea Canali di Pagamento',
+
+    'admin_payment_channel_edit' => 'Modifica Canali di Pagamento',
+
+    'admin_payment_channel_delete' => 'Elimina Canali di Pagamento',
 ];

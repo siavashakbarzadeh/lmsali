@@ -7,43 +7,69 @@ return [
     | Admin Webinars Translation
     |--------------------------------------------------------------------------
     */
+    'quizzes' => 'Quiz',
 
-    'quizzes' => 'Quizzes',
-    'page_lists_lead' => 'List of quizzes. You can edit or delete any row.',
-    'page_results_lead' => 'See quiz results',
-    'title' => 'Title',
-    'instructors' => 'Instructors',
-    'instructor' => 'Instructor',
-    'quizzes_list' => 'Quizzes lists',
-    'quiz_results' => 'Quizzes results',
-    'question_count' => 'Question count',
-    'students_count' => 'Students count',
-    'average_grade' => 'Average grade',
-    'grades' => 'Grades',
-    'grade_date' => 'Grades Date',
-    'certificate' => 'Certificate',
+    'page_lists_lead' => 'Lista dei quiz. Puoi modificare o eliminare qualsiasi riga.',
 
-    'passed' => 'Passed',
+    'page_results_lead' => 'Visualizza i risultati dei quiz',
 
-    'certificates' => 'Certificates',
-    'certificates_templates' => 'Certificates Templates',
-    'certificates_lists_lead' => 'See the list of downloaded certificates. you can also download',
-    'certificates_templates_lists_lead' => 'See the list of certificates template',
-    'templates' => 'Templates',
-    'new_template' => 'New template',
+    'title' => 'Titolo',
 
-    'template_image' => 'Template image',
+    'instructors' => 'Istruttori',
 
-    'position_x' => 'Position x',
-    'position_y' => 'Position y',
-    'font_size' => 'Font size',
-    'text_color' => 'Text color',
-    'message_body' => 'Message body',
-    'preview_certificate' => 'Preview certificate',
+    'instructor' => 'Istruttore',
 
-    'admin_quizzes' => 'Quizzes',
-    'admin_quizzes_list' => 'Quizzes List',
-    'admin_quizzes_create' => 'Quizzes Create',
-    'admin_quizzes_edit' => 'Quizzes Edit',
-    'admin_quizzes_delete' => 'Quizzes Delete',
+    'quizzes_list' => 'Liste dei quiz',
+
+    'quiz_results' => 'Risultati dei quiz',
+
+    'question_count' => 'Conteggio domande',
+
+    'students_count' => 'Conteggio studenti',
+
+    'average_grade' => 'Voto medio',
+
+    'grades' => 'Voti',
+
+    'grade_date' => 'Data dei voti',
+
+    'certificate' => 'Certificato',
+
+    'passed' => 'Superato',
+
+    'certificates' => 'Certificati',
+
+    'certificates_templates' => 'Modelli di Certificati',
+
+    'certificates_lists_lead' => 'Visualizza  elenco dei certificati scaricati. Puoi anche scaricare',
+
+'certificates_templates_lists_lead' => 'Visualizza  elenco dei modelli di certificati',
+
+'templates' => 'Modelli',
+
+'new_template' => 'Nuovo modello',
+
+'template_image' => 'Immagine del modello',
+
+'position_x' => 'Posizione x',
+
+'position_y' => 'Posizione y',
+
+'font_size' => 'Dimensione font',
+
+'text_color' => 'Colore del testo',
+
+'message_body' => 'Corpo del messaggio',
+
+'preview_certificate' => 'Anteprima certificato',
+
+'admin_quizzes' => 'Quiz',
+
+'admin_quizzes_list' => 'Lista Quiz',
+
+'admin_quizzes_create' => 'Crea Quiz',
+
+'admin_quizzes_edit' => 'Modifica Quiz',
+
+'admin_quizzes_delete' => 'Elimina Quiz',
 ];
