@@ -7,114 +7,195 @@ return [
     | Admin Financial Translation
     |--------------------------------------------------------------------------
     */
+    'financial' => 'Finanziario',
 
-    'financial' => 'Financial',
-    'accounting' => 'Accounting',
-    'discount' => 'discount',
-    'discounts' => 'discounts',
+    'accounting' => 'Contabilità',
+
+    'discount' => 'sconto',
+
+    'discounts' => 'sconti',
+
     'discount_code' => 'coupon',
-    'discount_codes' => 'coupons',
-    'name' => 'Name',
-    'count' => 'Count',
-    'name_placeholder' => 'Choice Unique Name',
-    'count_placeholder' => 'Maximum times the coupon can be used (for Once Usable Take It Empty)',
-    'expiration' => 'Expiration',
-    'ext_date' => 'Expiration date',
-    'percent' => 'Percent',
-    'amount' => 'Amount',
-    'amount_placeholder' => 'Max coupon amount for an order',
 
-    'payout' => 'Payout',
-    'payouts' => 'Payouts',
+    'discount_codes' => 'coupon',
+
+    'name' => 'Nome',
+
+    'count' => 'Conteggio',
+
+    'name_placeholder' => 'Scegli un Nome Unico',
+
+    'count_placeholder' => 'Numero massimo di volte che il coupon può essere utilizzato (per un uso singolo lasciare vuoto)',
+
+    'expiration' => 'Scadenza',
+
+    'ext_date' => 'Data di scadenza',
+
+    'percent' => 'Percentuale',
+
+    'amount' => 'Importo',
+
+    'amount_placeholder' => 'Importo massimo del coupon per un ordine',
+
+    'payout' => 'Pagamento',
+
+    'payouts' => 'Pagamenti',
+
     'account' => 'Account',
-    'type' => 'Type',
+
+    'type' => 'Tipo',
+
     'id' => 'Id',
+
     'iban' => 'IBAN',
 
-    'sale' => 'Sale',
-    'sales' => 'Sales',
-    'sales_list' => 'Sales List',
-    'sale_type' => 'Sale type',
+    'sale' => 'Vendita',
+
+    'sales' => 'Vendite',
+
+    'sales_list' => 'Lista Vendite',
+
+    'sale_type' => 'Tipo di vendita',
+
     'file' => 'File',
-    'meeting' => 'Meeting',
-    'ticket' => 'Ticket',
-    'seller' => 'Seller',
-    'buyer' => 'Buyer',
-    'waiting_payment' => 'Waiting for payment',
-    'delivered' => 'Delivered',
-    'paid_failed' => 'Paid/Failed',
-    'paid_waiting' => 'Paid/Waiting',
-    'paid_successful' => 'Paid/Successful',
 
-    'offline_payment' => 'Offline payment',
-    'offline_payments' => 'Offline payments',
-    'bank' => 'Bank',
-    'referral_code' => 'Referral code',
+    'meeting' => 'Incontro',
 
-    'documents' => 'Documents',
-    'new_document' => 'New Document',
-    'addiction' => 'Addiction',
-    'deduction' => 'Deduction',
-    'creator' => 'Creator',
-    'automatic' => 'Automatic',
-    'target_account' => 'Target Account',
-    'income' => 'Income',
-    'user_income' => 'User Income',
-    'account_balance' => 'Account Balance',
+    'ticket' => 'Biglietto',
 
-    'factor' => 'Factor',
-    'new_factor' => 'New Factor',
+    'seller' => 'Venditore',
 
-    'sales_page_title' => 'Sales',
+    'buyer' => 'Acquirente',
+
+    'waiting_payment' => 'In attesa di pagamento',
+
+    'delivered' => 'Consegnato',
+
+    'paid_failed' => 'Pagato/Fallito',
+
+    'paid_waiting' => 'Pagato/In Attesa',
+
+    'paid_successful' => 'Pagato/Con Successo',
+
+    'offline_payment' => 'Pagamento offline',
+
+    'offline_payments' => 'Pagamenti offline',
+
+    'bank' => 'Banca',
+
+    'referral_code' => 'Codice di riferimento',
+
+    'documents' => 'Documenti',
+
+    'new_document' => 'Nuovo Documento',
+
+    'addiction' => 'Dipendenza',
+
+    'deduction' => 'Detrazione',
+
+    'creator' => 'Creatore',
+
+    'automatic' => 'Automatico',
+
+    'target_account' => 'Account Destinatario',
+
+    'income' => 'Reddito',
+
+    'user_income' => 'Reddito Utente',
+
+    'account_balance' => 'Saldo Account',
+
+    'factor' => 'Fattore',
+
+    'new_factor' => 'Nuovo Fattore',
+
+    'sales_page_title' => 'Vendite',
+
     'webinar' => 'Webinar',
-    'type_account' => 'Type Account',
-    'item_purchased' => 'Item purchased',
-    'asset' => 'Asset',
-    'document_page_title' => 'Documents',
-    'system' => 'System',
-    'tax' => 'Tax',
 
-    'new_document_page_title' => 'New Document',
-    'bank_name' => 'Bank Name',
-    'account_name' => 'Account Name',
-    'account_number' => 'Account Number',
+    'type_account' => 'Tipo Account',
 
-    'verify_user' => 'Verify user',
-    'financial_approval' => 'Financial approval',
-    'user_commission' => 'User commission',
-    'commission' => 'commission',
-    'user_commission_placeholder' => 'empty means use from default setting',
+    'item_purchased' => 'Articolo acquistato',
 
-    'offline_payment_page_title' => 'Offline Payment',
-    'refund' => 'Refund',
+    'asset' => 'Bene',
 
-    'manual_document' => 'manual document',
-    'automatic_document' => 'automatic document',
+    'document_page_title' => 'Documenti',
 
-    'new_subscribe' => 'New subscribe',
-    'purchased_subscribe' => 'Purchased subscribe',
-    'purchased_promotion' => 'Purchased promotion',
-    'subscribe' => 'Subscribe',
-    'subscribes' => 'Subscribes',
-    'subscribes_lists_page_lead' => 'List of subscribes. You can edit or delete any row.',
-    'usable_count' => 'Usable count',
-    'short_description' => 'Short description',
-    'short_description_placeholder' => 'like: Suggested for small businesses',
+    'system' => 'Sistema',
 
-    'promotion' => 'Promotion',
-    'promotions' => 'Promotions',
-    'promotions_lists_page_lead' => 'List of promotions. You can edit or delete any row.',
-    'is_popular' => 'Popular Badge',
-    'new_promotion' => 'New Promotion Plan',
-    'edit_promotion' => 'Edit Promotion Plan',
+    'tax' => 'Tassa',
 
-    'payment_channels' => 'Payment channels',
-    'promotion_sales' => 'Promotion Sales',
-    'promotion_sales_lists_page_lead' => 'List of Promotion Sales. You can view.',
-    'special_offers' => 'Special Offers',
-    'special_offers_list_page_title' => 'Special Offers',
-    'status' => 'Status',
-    'from_date' => 'From Date',
-    'to_date' => 'To Date',
-    'document_number' => 'Document ID'
+    'new_document_page_title' => 'Nuovo Documento',
+
+    'bank_name' => 'Nome della Banca',
+
+    'account_name' => 'Nome Account',
+
+    'account_number' => 'Numero Account',
+
+    'verify_user' => 'Verifica utente',
+
+    'financial_approval' => 'Approvazione finanziaria',
+
+    'user_commission' => 'Commissione utente',
+
+    'commission' => 'commissione',
+
+    'user_commission_placeholder' => 'vuoto significa usare  impostazione predefinita',
+
+'offline_payment_page_title' => 'Pagamento Offline',
+
+'refund' => 'Rimborso',
+
+'manual_document' => 'documento manuale',
+
+'automatic_document' => 'documento automatico',
+
+'new_subscribe' => 'Nuova iscrizione',
+
+'purchased_subscribe' => 'Iscrizione acquistata',
+
+'purchased_promotion' => 'Promozione acquistata',
+
+'subscribe' => 'Iscriviti',
+
+'subscribes' => 'Iscrizioni',
+
+'subscribes_lists_page_lead' => 'Lista delle iscrizioni. Puoi modificare o eliminare qualsiasi riga.',
+
+'usable_count' => 'Conteggio utilizzabile',
+
+'short_description' => 'Breve descrizione',
+
+'short_description_placeholder' => 'es: Suggerito per piccole imprese',
+
+'promotion' => 'Promozione',
+
+'promotions' => 'Promozioni',
+
+'promotions_lists_page_lead' => 'Lista delle promozioni. Puoi modificare o eliminare qualsiasi riga.',
+
+'is_popular' => 'Distintivo Popolare',
+
+'new_promotion' => 'Nuovo Piano di Promozione',
+
+'edit_promotion' => 'Modifica Piano di Promozione',
+
+'payment_channels' => 'Canali di pagamento',
+
+'promotion_sales' => 'Vendite Promozionali',
+
+'promotion_sales_lists_page_lead' => 'Lista delle Vendite Promozionali. Puoi visualizzare.',
+
+'special_offers' => 'Offerte Speciali',
+
+'special_offers_list_page_title' => 'Offerte Speciali',
+
+'status' => 'Stato',
+
+'from_date' => 'Dalla Data',
+
+'to_date' => 'Alla Data',
+
+'document_number' => 'ID Documento'
 ];
