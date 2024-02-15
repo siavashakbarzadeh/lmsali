@@ -27,7 +27,7 @@
                                     <option value="" selected disabled>{{ trans('panel.select_course') }}</option>
 
                                     @foreach($webinars as $webinar)
-                                        <option value="{{ $webinar->id }}" @if(!empty($noticeboard) and $noticeboard->webinar_id == $webinar->id) selected @endif>{{ $webinar->title }}</option>
+                                    <option>Paid Plugin</option>
                                     @endforeach
                                 </select>
                                 <div class="invalid-feedback">@error('webinar_id') {{ $message }} @enderror</div>

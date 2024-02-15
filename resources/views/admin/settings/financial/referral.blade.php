@@ -20,7 +20,7 @@
                         <span class="custom-switch-indicator"></span>
                         <label class="custom-switch-description mb-0 cursor-pointer" for="referralStatusSwitch">{{ trans('admin/main.active') }}</label>
                     </label>
-                    <div class="text-muted text-small mt-1">{{ trans('admin/main.referral_hint') }}</div>
+                    <div class="text-muted text-small mt-1">{{ trans('admin/main.multi_language_content_hint') }}</div>
                 </div>
 
                 <div class="form-group custom-switches-stacked">

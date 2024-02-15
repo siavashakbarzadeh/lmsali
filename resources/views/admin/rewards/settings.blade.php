@@ -6,7 +6,7 @@
         <div class="section-header">
             <h1>{{ trans('update.rewards_settings') }}</h1>
             <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="{{ getAdminPanelUrl() }}">{{ trans('admin/main.dashboard') }}</a></div>
+                <div class="breadcrumb-item active"><a href="/admin/">{{ trans('admin/main.dashboard') }}</a></div>
                 <div class="breadcrumb-item">{{ trans('update.rewards_settings') }}</div>
             </div>
         </div>
@@ -20,7 +20,7 @@
 
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-4">
-                                    <form action="{{ getAdminPanelUrl() }}/rewards/settings" method="post">
+                                    <form action="/admin/rewards/settings" method="post">
                                         {{ csrf_field() }}
                                         <input type="hidden" name="page" value="general">
                                         <input type="hidden" name="name" value="rewards_settings">
