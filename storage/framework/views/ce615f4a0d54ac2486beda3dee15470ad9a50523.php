@@ -1,13 +1,10 @@
-@extends('admin.layouts.app')
-
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <section class="section">
         <div class="section-header">
-            <h1>{{ trans('admin/main.settings') }}</h1>
+            <h1><?php echo e(trans('admin/main.settings')); ?></h1>
             <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="#">{{ trans('admin/main.dashboard') }}</a></div>
-                <div class="breadcrumb-item">{{ trans('admin/main.settings') }}</div>
+                <div class="breadcrumb-item active"><a href="#"><?php echo e(trans('admin/main.dashboard')); ?></a></div>
+                <div class="breadcrumb-item"><?php echo e(trans('admin/main.settings')); ?></div>
             </div>
         </div>
 
@@ -111,4 +108,6 @@
                             </div>
         </div>
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('admin.layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\sia\Documents\GitHub\lmsali\resources\views/admin/settings/index.blade.php ENDPATH**/ ?>
