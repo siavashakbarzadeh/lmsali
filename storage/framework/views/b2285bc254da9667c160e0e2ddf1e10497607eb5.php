@@ -48,4 +48,4 @@
 
 <?php $__env->stopPush(); ?>
 
-<?php echo $__env->make('admin.layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\sia\Documents\GitHub\lmsali\resources\views/admin/certificates/templates.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('admin.layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\sia\Documents\GitHub\lmsali\resources\views/admin/enrollment/history.blade.php ENDPATH**/ ?>
