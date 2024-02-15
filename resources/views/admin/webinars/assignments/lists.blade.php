@@ -26,7 +26,7 @@
                                 <img class="img-fluid col-md-6" src="/assets/default/img/lic.svg" alt="image">
                                 <h3 class="mt-3">PAssignmentsAida!</h3>
                                 <h5 class="lead">
-                                You can activate your license by <strong><a href="mailto:akbarzadehsiavash@gmail.com">contacting support</a></strong> or checking <strong><a href="">CRM</a></strong>  </h5>
+{{--                                You can activate your license by <strong><a href="mailto:akbarzadehsiavash@gmail.com">contacting support</a></strong> or checking <strong><a href="">CRM</a></strong>  </h5>--}}
                               </div>
 
 
