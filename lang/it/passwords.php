@@ -9,11 +9,11 @@ return [
     |
     |
     */
+    'reset' => 'La tua password è stata reimpostata!',
+    'sent' => 'Abbiamo inviato via email il link per reimpostare la password!',
+    'throttled' => 'Attendere prima di riprovare.',
+    'token' => 'Questo link di reimpostazione della password non è valido.',
+    'user' => "Nessun utente trovato con questo indirizzo email.",
 
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have emailed your password reset link!',
-    'throttled' => 'Please wait before retrying.',
-    'token' => 'This password reset link is invalid.',
-    'user' => "No user found with this email address.",
 
 ];

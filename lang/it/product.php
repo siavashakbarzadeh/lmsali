@@ -8,34 +8,35 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'course' => 'Course',
-    'courses' => 'Courses',
-    'text_course' => 'Text Course',
-  	'video_course' => 'Video Course',
-    'information' => 'Information',
-    'content' => 'Content',
-    'review' => 'Review',
-    'reviews' => 'Reviews',
+'course' => 'Corso',
+'courses' => 'Corsi',
+'text_course' => 'Corso Testuale',
+'video_course' => 'Corso Video',
+'information' => 'Informazioni',
+'content' => 'Contenuto',
+'review' => 'Recensione',
+'reviews' => 'Recensioni',
 
-    'Webinar_description' => 'About this course',
+'Webinar_description' => 'Informazioni su questo corso',
 
-    'post_comment' => 'Post comment',
-    'post_review' => 'Post review',
+'post_comment' => 'Invia commento',
+'post_review' => 'Pubblica recensione',
 
-    'comment_success_store' => 'Comment sent successfully!',
-    'comment_success_store_msg' => 'Your comment will be published after approved by admin.',
+'comment_success_store' => 'Commento inviato con successo!',
+'comment_success_store_msg' => 'Il tuo commento sarà pubblicato dopo  approvazione dell amministratore.',
 
-    'guarantee_text' => '5 Days money back guarantee',
+'guarantee_text' => 'Garanzia di rimborso entro 5 giorni',
 
-    'product_designer' => 'Product Designer',
+'product_designer' => 'Designer di Prodotto',
 
-    'content_quality' => 'Content quality',
-    'instructor_skills' => 'Instructor skills',
-    'purchase_worth' => 'Purchase worth',
-    'support_quality' => 'Support quality',
+'content_quality' => 'Qualità del contenuto',
+'instructor_skills' => 'Competenze dell istruttore',
+'purchase_worth' => 'Valore dell acquisto',
+'support_quality' => 'Qualità del supporto',
 
-    'report_the_course' => 'Report course',
-    'reason' => 'Reason',
-    'select_reason' => 'Select a reason',
-    'report_modal_hint' => 'Please describe about the report short and clearly.',
+'report_the_course' => 'Segnala il corso',
+'reason' => 'Motivo',
+'select_reason' => 'Seleziona un motivo',
+'report_modal_hint' => 'Si prega di descrivere brevemente e chiaramente il motivo della segnalazione.',
+
 ];
