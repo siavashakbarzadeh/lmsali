@@ -114,12 +114,13 @@ return [
     'my_certificates' => 'My certificates',
     'my_certificates_statistics' => 'My certificates statistics',
     'my_certificates_no_result' => 'You have no certificate!',
-    'my_certificates_no_result_hint' => 'You can achieve valid certificates by enrolling on courses.',
+    'my_certificates_no_result_hint' => 'Puoi ottenere certificati validi iscrivendoti ai corsi.',
 
-    'quiz_chance_remained' => ':count chance remained',
-    'student_answer' => 'Student answer',
+    'quiz_chance_remained' => ':count possibilità rimasta',
+    'student_answer' => 'Risposta dello studente',
 
-    'new_quiz_page_title' => 'New Quiz',
-    'quizzes_list_page_title' => 'Quizzes lists',
-	'quizzes_section' => 'No Section',
+    'new_quiz_page_title' => 'Nuovo Quiz',
+    'quizzes_list_page_title' => 'Elenco Quiz',
+    'quizzes_section' => 'Nessuna Sezione',
+
 ];
