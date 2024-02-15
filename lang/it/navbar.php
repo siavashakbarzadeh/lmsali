@@ -8,16 +8,16 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'search_anything' => 'Search...',
-    'home' => 'Home',
-    'about_us' => 'About us',
-    'contact' => 'Contact',
-    'blog' => 'Blog',
-    'terms' => 'Terms',
-    'items' => 'Items',
-    'menu' => 'Menu',
-    'title' => 'Title',
-    'start_a_live_class' => 'Start a new course',
+'search_anything' => 'Cerca...',
+'home' => 'Home',
+'about_us' => 'Chi siamo',
+'contact' => 'Contatto',
+'blog' => 'Blog',
+'terms' => 'Termini',
+'items' => 'Articoli',
+'menu' => 'Menu',
+'title' => 'Titolo',
+'start_a_live_class' => 'Inizia un nuovo corso',
 
 
 
