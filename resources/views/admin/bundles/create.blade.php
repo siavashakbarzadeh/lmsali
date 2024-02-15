@@ -23,10 +23,10 @@
         <div class="section-header">
             <h1>{{!empty($bundle) ?trans('/admin/main.edit'): trans('admin/main.new') }} {{ trans('update.bundle') }}</h1>
             <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="/admin/">{{ trans('admin/main.dashboard') }}</a>
+                <div class="breadcrumb-item active"><a href="{{ getAdminPanelUrl() }}">{{ trans('admin/main.dashboard') }}</a>
                 </div>
                 <div class="breadcrumb-item active">
-                    <a href="/admin/bundles">{{ trans('update.bundles') }}</a>
+                    <a href="{{ getAdminPanelUrl() }}/bundles">{{ trans('update.bundles') }}</a>
                 </div>
                 <div class="breadcrumb-item">{{!empty($bundle) ?trans('/admin/main.edit'): trans('admin/main.new') }}</div>
             </div>
@@ -39,7 +39,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <form method="post" action="/admin/bundles/{{ !empty($bundle) ? $bundle->id.'/update' : 'store' }}" id="webinarForm" class="webinar-form">
+                            <form method="post" action="{{ getAdminPanelUrl() }}/bundles/{{ !empty($bundle) ? $bundle->id.'/update' : 'store' }}" id="webinarForm" class="webinar-form">
                                 {{ csrf_field() }}
                                 <section>
                                     <h2 class="section-title after-line">{{ trans('public.basic_information') }}</h2>
@@ -266,7 +266,7 @@
                                             </div>
 
                                             <div class="form-group mt-15">
-                                                <label class="input-label">{{ trans('public.price') }}</label>
+                                                <label class="input-label">{{ trans('public.price') }} ({{ $currency }})</label>
                                                 <input type="text" name="price" value="{{ !empty($bundle) ? $bundle->price : old('price') }}" class="form-control @error('price')  is-invalid @enderror" placeholder="{{ trans('public.0_for_free') }}"/>
                                                 @error('price')
                                                 <div class="invalid-feedback">
@@ -371,7 +371,7 @@
                                                                             <i class="fa fa-edit"></i>
                                                                         </button>
 
-                                                                        @include('admin.includes.delete_button',['url' => '/admin/tickets/'. $ticket->id .'/delete', 'btnClass' => ' mt-1'])
+                                                                        @include('admin.includes.delete_button',['url' => getAdminPanelUrl().'/tickets/'. $ticket->id .'/delete', 'btnClass' => ' mt-1'])
                                                                     </td>
                                                                 </tr>
                                                             @endforeach
@@ -415,7 +415,7 @@
                                                                     <tr>
                                                                         <th>{{ $bundleWebinar->webinar->title }}</th>
                                                                         <td class="text-left">{{ $bundleWebinar->webinar->teacher->full_name }}</td>
-                                                                        <td>{{  addCurrencyToPrice(handlePriceFormat($bundleWebinar->webinar->price)) }}</td>
+                                                                        <td>{{  !empty($bundleWebinar->webinar->price) ? handlePrice($bundleWebinar->webinar->price) : trans("public.free") }}</td>
                                                                         <td>{{ dateTimeFormat($bundleWebinar->webinar->created_at,'j F Y | H:i') }}</td>
 
                                                                         <td>
@@ -423,7 +423,7 @@
                                                                                 <i class="fa fa-edit"></i>
                                                                             </button>
 
-                                                                            @include('admin.includes.delete_button',['url' => '/admin/bundle-webinars/'. $bundleWebinar->id .'/delete', 'btnClass' => ' mt-1'])
+                                                                            @include('admin.includes.delete_button',['url' => getAdminPanelUrl().'/bundle-webinars/'. $bundleWebinar->id .'/delete', 'btnClass' => ' mt-1'])
                                                                         </td>
                                                                     </tr>
                                                                 @endif
@@ -473,7 +473,7 @@
                                                                             <i class="fa fa-edit"></i>
                                                                         </button>
 
-                                                                        @include('admin.includes.delete_button',['url' => '/admin/faqs/'. $faq->id .'/delete', 'btnClass' => ' mt-1'])
+                                                                        @include('admin.includes.delete_button',['url' => getAdminPanelUrl().'/faqs/'. $faq->id .'/delete', 'btnClass' => ' mt-1'])
                                                                     </td>
                                                                 </tr>
                                                             @endforeach
@@ -513,7 +513,7 @@
                                             <button type="button" id="saveReject" class="btn btn-warning">{{ trans('public.reject') }}</button>
 
                                             @include('admin.includes.delete_button',[
-                                                    'url' => '/admin/bundles/'. $bundle->id .'/delete',
+                                                    'url' => getAdminPanelUrl().'/bundles/'. $bundle->id .'/delete',
                                                     'btnText' => trans('public.delete'),
                                                     'hideDefaultClass' => true,
                                                     'btnClass' => 'btn btn-danger'
@@ -542,6 +542,7 @@
     </script>
 
     <script src="/assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="/assets/default/vendors/feather-icons/dist/feather.min.js"></script>
     <script src="/assets/default/vendors/select2/select2.min.js"></script>
     <script src="/assets/default/vendors/moment.min.js"></script>
     <script src="/assets/default/vendors/daterangepicker/daterangepicker.min.js"></script>
