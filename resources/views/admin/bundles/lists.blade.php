@@ -24,7 +24,7 @@
 
                             <div class="empty-state mx-auto d-block"  data-width="900" >
 
-                              Aida!
+                              bundle listAida!
                               </div>
 
 
