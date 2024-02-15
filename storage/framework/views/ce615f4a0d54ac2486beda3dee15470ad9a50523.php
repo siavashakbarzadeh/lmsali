@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                                     <div class="col-lg-6">
                         <div class="card card-large-icons">
                             <div class="card-icon bg-primary text-white">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                                     <div class="col-lg-6">
                         <div class="card card-large-icons">
                             <div class="card-icon bg-primary text-white">
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                                     <div class="col-lg-6">
                         <div class="card card-large-icons">
                             <div class="card-icon bg-primary text-white">
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                                     <div class="col-lg-6">
                         <div class="card card-large-icons">
                             <div class="card-icon bg-primary text-white">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                
+
                                     <div class="col-lg-6">
                         <div class="card card-large-icons">
                             <div class="card-icon bg-primary text-white">
@@ -92,19 +92,19 @@
                             </div>
                         </div>
                     </div>
-                
-                                    <div class="col-lg-6">
-                        <div class="card card-large-icons">
-                            <div class="card-icon bg-primary text-white">
-                                <i class="fas fa-list-alt"></i>
-                            </div>
-                            <div class="card-body">
-                                <h4>Update App</h4>
-                                <p>Update your platform to the latest version easily weadown.com</p>
-                                <a href="/admin/settings/update-app" class="card-cta text-primary">Change Settings<i class="fas fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                             </div>
         </div>
     </section>
