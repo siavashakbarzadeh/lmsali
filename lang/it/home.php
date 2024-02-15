@@ -4,84 +4,84 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Home 
+    | Home
     |--------------------------------------------------------------------------
     */
-
     'home_title' => 'Home',
 
-    'slider_heading' => 'Enjoy online learning',
-    'slider_hint' => "Online education is one of the best choices to grow \n learn from the best teachers around the world",
+    'slider_heading' => 'Goditi l’apprendimento online',
+    'slider_hint' => "L'istruzione online è una delle migliori scelte per crescere \n impara dai migliori insegnanti di tutto il mondo",
 
-    'slider_search_placeholder' => 'Search courses, instructors and organizations...',
-    'find' => 'Search',
+    'slider_search_placeholder' => 'Cerca corsi, istruttori e organizzazioni...',
+    'find' => 'Cerca',
 
-    'view_all' => 'View All',
-    // stats
-    'teachers' => 'Instructors',
-    'skillful_teachers' => 'Skillful Instructors',
-    'skillful_teachers_hint' => 'Start learning from experienced instructors.',
+    'view_all' => 'Visualizza Tutto',
+// stats
+    'teachers' => 'Istruttori',
+    'skillful_teachers' => 'Istruttori Competenti',
+    'skillful_teachers_hint' => 'Inizia ad imparare da istruttori esperti.',
 
-    'live_classes' => 'Live Classes',
-    'live_classes_hint' => 'Improve your skills using live knowledge flow.',
+    'live_classes' => 'Classi Dal Vivo',
+    'live_classes_hint' => 'Migliora le tue competenze utilizzando un flusso di conoscenza dal vivo.',
 
-    'happy_students' => 'Happy Students',
-    'happy_students_hint' => 'Enrolled in our courses and improved their skills.',
+    'happy_students' => 'Studenti Felici',
+    'happy_students_hint' => 'Iscritti ai nostri corsi e hanno migliorato le loro competenze.',
 
-    'offline_courses' => 'Video Courses',
-    'offline_courses_hint' => 'Learn without any geographical & time limitations.',
+    'offline_courses' => 'Corsi Video',
+    'offline_courses_hint' => 'Impara senza limitazioni geografiche e temporali.',
 
-    'hours' => 'Hours',
+    'hours' => 'Ore',
 
-    'featured_classes' => 'Featured Courses',
-    'featured_webinars' => 'Featured Courses',
-    'featured_classes_hint' => '#Browse featured courses and become skillful',
+    'featured_classes' => 'Corsi In Evidenza',
+    'featured_webinars' => 'Corsi In Evidenza',
+    'featured_classes_hint' => '#Sfoglia i corsi in evidenza e diventa competente',
 
-    'latest_classes' => 'Newest Courses',
-    'latest_webinars' => 'Newest Courses',
-    'latest_webinars_hint' => '#Recently published courses',
+    'latest_classes' => 'Corsi Più Recenti',
+    'latest_webinars' => 'Corsi Più Recenti',
+    'latest_webinars_hint' => '#Corsi pubblicati di recente',
 
-    'featured' => 'Featured',
-    'downloadable' => 'Downloadable',
-    'download' => 'Download',
-    'downloads' => 'Downloads',
+    'featured' => 'In Evidenza',
+    'downloadable' => 'Scaricabili',
+    'download' => 'Scarica',
+    'downloads' => 'Download',
 
-    'trending_categories' => 'Trending Categories',
-    'trending_categories_hint' => '#Browse trending & popular learning topics',
+    'trending_categories' => 'Categorie di Tendenza',
+    'trending_categories_hint' => '#Sfoglia argomenti di apprendimento di tendenza e popolari',
 
-    'best_sellers' => 'Bestselling Courses',
-    'best_sellers_hint' => '#Learn from bestselling courses',
+    'best_sellers' => 'Corsi Più Venduti',
+    'best_sellers_hint' => '#Impara dai corsi più venduti',
 
-    'best_rates' => 'Best Rated Courses',
-    'best_rates_hint' => '#Enjoy high quality and best rated content',
+    'best_rates' => 'Corsi Meglio Recensiti',
+    'best_rates_hint' => '#Goditi contenuti di alta qualità e meglio recensiti',
 
-    'discount_classes' => 'Discounted Courses',
-    'discount_classes_hint' => '#Get courses at the latest price',
+    'discount_classes' => 'Corsi Scontati',
+    'discount_classes_hint' => '#Ottieni corsi al prezzo più recente',
 
-    'free_classes' => 'Free Courses',
-    'free_classes_hint' => '#Never miss free learning opportunities',
+    'free_classes' => 'Corsi Gratuiti',
+    'free_classes_hint' => '#Non perdere mai opportunità di apprendimento gratuite',
 
-    'testimonials' => 'Testimonials',
-    'testimonials_hint' => '#What our customers say about us',
+    'testimonials' => 'Testimonianze',
+    'testimonials_hint' => '#Cosa dicono di noi i nostri clienti',
 
-    'subscribe_now' => 'Subscribe Now!',
-    'subscribe_now_hint' => '#Choose a subscription plan and save money!',
+    'subscribe_now' => 'Iscriviti Ora!',
+    'subscribe_now_hint' => '#Scegli un piano di abbonamento e risparmia!',
 
-    'instructors' => 'Instructors',
-    'all_instructors' => 'All Instructors',
-    'instructors_hint' => '#Learn from the experienced & skillful instructors',
-    'reserve_a_live_class' => 'Reserve a live meeting',
+    'instructors' => 'Istruttori',
+    'all_instructors' => 'Tutti gli Istruttori',
+    'instructors_hint' => '#Impara dagli istruttori esperti e competenti',
+    'reserve_a_live_class' => 'Prenota un incontro dal vivo',
 
-    'organization' => 'Organization',
-    'organizations' => 'Organizations',
-    'all_organizations' => 'All Organizations',
-    'organizations_hint' => '#Greatest education organizations are here to help you',
+    'organization' => 'Organizzazione',
+    'organizations' => 'Organizzazioni',
+    'all_organizations' => 'Tutte le Organizzazioni',
+    'organizations_hint' => '#Le più grandi organizzazioni educative sono qui per aiutarti',
 
     'blog' => 'Blog',
-    'all_blog' => 'Blog Posts',
-    'blog_hint' => '#Explore latest news and articles',
+    'all_blog' => 'Articoli del Blog',
+    'blog_hint' => '#Esplora le ultime notizie e articoli',
 
-    'platform_address' => 'Address',
-    'order_summary' => 'Order Summary',
-  	'blog_search_placeholder' => 'Search for blog posts...',
+    'platform_address' => 'Indirizzo',
+    'order_summary' => 'Riepilogo Ordine',
+    'blog_search_placeholder' => 'Cerca nei post del blog...',
+
 ];

@@ -1,18 +1,19 @@
 <?php
 return [
     'public' => [
-        'retrieved' => 'data retrieved successfully',
-        'stored' => ' the item stored successfully',
-        'deleted' => ' the item removed successfully',
-        'updated' => ' the item updated successfully',
-        'status' => ':item :status successfully'
+        'retrieved' => 'dati recuperati con successo',
+        'stored' => ' l\'elemento è stato salvato con successo',
+        'deleted' => ' l\'elemento è stato rimosso con successo',
+        'updated' => ' l\'elemento è stato aggiornato con successo',
+        'status' => ':item :status con successo'
     ],
     'auth' => [
-        'not_verified' => 'the user is not verified',
-        'invalid_register_method' => 'the register method is invalid',
-        'already_registered' => 'the user has already registered',
-        'login' => 'the user login successfully',
-        'registered' => 'the user registered successfully'
+        'not_verified' => 'l\'utente non è verificato',
+        'invalid_register_method' => 'il metodo di registrazione è invalido',
+        'already_registered' => 'l\'utente è già registrato',
+        'login' => 'l\'utente ha effettuato l\'accesso con successo',
+        'registered' => 'l\'utente è stato registrato con successo'
     ]
+
 
 ];
