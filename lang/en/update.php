@@ -203,6 +203,7 @@ return [
 'points' => 'Points',
 'spent_points' => 'Spent Points',
 'exchange_or_get_a_course' => 'Convert your points or get free courses',
+
 'exchange_or_get_a_course_by_spending_points_hint' => 'You can convert your earned points to the wallet charge or get free courses by spending points. You can get',
 'just_get_a_course_by_spending_points_hint' => 'You can exchange your earned points to get free courses by spending points',
 'for_your_available_points' => 'For your available points',
@@ -371,6 +372,7 @@ return [
 'organization_select_role' => 'Account type',
 'instructor_certificate_and_documents' => 'Certificates and documents',
 'organization_certificate_and_documents' => 'Business Documents',
+
 'instructor_select_account_type' => 'Payout account',
 'organization_select_account_type' => 'Payout account',
 'instructor_iban' => 'IBAN',
@@ -525,6 +527,8 @@ return [
 'product_faq_no_result_hint' => 'Define FAQ for your product and help users.',
 'my_products' => 'My Products',
 'class' => 'Course',
+
+
 'products_statistics' => 'Products Statistics',
 'physical_sales' => 'Physical Sales',
 'virtual_sales' => 'Virtual Sales',
@@ -674,6 +678,7 @@ return [
 'add_new_assignments' => 'New Assignment',
 'not_submitted' => 'Not submitted',
 'submissions' => 'Submissions',
+
 'submission_times' => 'Submission Times',
 'min_grade' => 'Min Grade',
 'assignment_history' => 'Assignment History',
