@@ -4,13 +4,12 @@
     <link rel="stylesheet" href="/assets/default/vendors/select2/select2.min.css">
 @endpush
 
-
 @section('content')
     <section class="section">
         <div class="section-header">
             <h1>{{ trans('update.saas_settings') }}</h1>
             <div class="section-header-breadcrumb">
-                <div class="breadcrumb-item active"><a href="/admin/">{{ trans('admin/main.dashboard') }}</a></div>
+                <div class="breadcrumb-item active"><a href="{{ getAdminPanelUrl() }}">{{ trans('admin/main.dashboard') }}</a></div>
                 <div class="breadcrumb-item active"><a href="{{ route('adminRegistrationPackagesLists') }}">{{ trans('update.registration_packages') }}</a></div>
                 <div class="breadcrumb-item ">{{ trans('admin/main.settings') }}</div>
             </div>
@@ -50,7 +49,6 @@
         </div>
     </section>
 @endsection
-
 
 @push('scripts_bottom')
     <script src="/assets/default/vendors/select2/select2.min.js"></script>
