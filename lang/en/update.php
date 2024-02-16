@@ -2027,6 +2027,7 @@ return [
 "show_form" => "Show Form",
 "select_a_option" => "Select an Option",
 "clear_form" => "Clear Form",
+
 "form" => "Form",
 "notification_forms" => "Forms",
 "form_builder" => "Form Builder",
