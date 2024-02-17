@@ -55,9 +55,9 @@ $post = '';
 foreach (explode("\n", $data) as $line) {
     if (!preg_match("{^        '([^']+/[^']+)' => \['(.+)'\],$}", $line, $matches)) {
         if (!$current) {
-            $pre .= $line."\n";
+            $pre .= $line." ";
         } else {
-            $post .= $line."\n";
+            $post .= $line." ";
         }
         continue;
     }
