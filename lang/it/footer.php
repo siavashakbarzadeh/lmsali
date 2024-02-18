@@ -10,7 +10,7 @@ return [
 
     'join' => 'Unisciti',
     'join_us_today' => 'Unisciti a noi oggi',
-    'subscribe_content' => '#Invieremo le migliori offerte e promozioni alla tua email.',
+    'subscribe_content' => 'Unisciti a noi in un viaggio di scoperta e crescita.',
     'enter_email_here' => 'Inserisci qui la tua email',
 
 
