@@ -65,7 +65,7 @@
             <div class="footer-logo">
                 <a href="/">
                     @if(!empty($generalSettings['footer_logo']))
-                        <img src="" class="img-cover" alt="footer logo">
+                        <img src="{{ $generalSettings['log'] }}" class="img-cover" alt="footer logo">
                     @endif
                 </a>
             </div>

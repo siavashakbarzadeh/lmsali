@@ -81,7 +81,7 @@ unset($__errorArgs, $__bag); ?>
             <div class="footer-logo">
                 <a href="/">
                     <?php if(!empty($generalSettings['footer_logo'])): ?>
-                        <img src="<?php echo e($generalSettings['footer_logo']); ?>" class="img-cover" alt="footer logo">
+                        <img src="" class="img-cover" alt="footer logo">
                     <?php endif; ?>
                 </a>
             </div>
