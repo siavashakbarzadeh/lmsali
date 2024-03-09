@@ -37,7 +37,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-list dropdown-menu-right">
                     <div class="dropdown-list-icons mb-0" height="150px">
-                            <a href="https://codecanyon.net/user/rocketsoft/portfolio" class="dropdown-item">
+                            <a href="https://zaledi.com/user/rocketsoft/portfolio" class="dropdown-item">
                                 <div class="dropdown-item-icon bg-info text-white d-flex align-items-center justify-content-center">
                                     <i class="fa fa-info"></i>
                                 </div>

@@ -45,7 +45,7 @@
                 <h1 class="mb-2 display-4 font-weight-bold">Rocket LMS</h1>
                 <h5 class="font-weight-normal text-muted-transparent">fully-featured educational platform</h5>
               </div>
-              All rights reserved for <a class="text-light bb" target="_blank" href="https://codecanyon.net/user/rocketsoft">Rocket Soft</a> on <a class="text-light bb" target="_blank" href="https://codecanyon.net/collections/10821267-rocket-lms-full-package">Codecanyon</a>
+              All rights reserved for <a class="text-light bb" target="_blank" href="https://zaledi.com/user/rocketsoft">Rocket Soft</a> on <a class="text-light bb" target="_blank" href="https://zaledi.com/collections/10821267-rocket-lms-full-package">Codecanyon</a>
             </div>
           </div>
             </div>

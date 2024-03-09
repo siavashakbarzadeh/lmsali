@@ -28,21 +28,21 @@
                     <img class="img-fluid col-md-6" src="/assets/default/img/plugin.svg" alt="image">
                     <h3 class="mt-3">This is a paid plugin!</h3>
                     <h5 class="lead">
-                        You can purchase it by <strong><a href="https://codecanyon.net/item/universal-plugins-bundle-for-rocket-lms/33297004">this link</a></strong> on Codecanyon.
-                    </h5>             
+                        You can purchase it by <strong><a href="https://zaledi.com/item/universal-plugins-bundle-for-rocket-lms/33297004">this link</a></strong> on Codecanyon.
+                    </h5>
                   </div>
 
 
-                
+
             </div>
 
-          
+
 
         </div>
     </div>
 </div>
 </div>
-        
+
     </section>
 @endsection
 
