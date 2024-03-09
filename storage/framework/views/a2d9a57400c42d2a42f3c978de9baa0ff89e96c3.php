@@ -80,9 +80,9 @@ unset($__errorArgs, $__bag); ?>
         <div class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between">
             <div class="footer-logo">
                 <a href="/">
-                    <?php if(!empty($generalSettings['footer_logo'])): ?>
-                        <img src="" class="img-cover" alt="footer logo">
-                    <?php endif; ?>
+
+
+
                 </a>
             </div>
             <div class="footer-social">

@@ -64,9 +64,9 @@
         <div class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between">
             <div class="footer-logo">
                 <a href="/">
-                    @if(!empty($generalSettings['footer_logo']))
-                        <img src="{{ $generalSettings['log'] }}" class="img-cover" alt="footer logo">
-                    @endif
+{{--                    @if(!empty($generalSettings['footer_logo']))--}}
+{{--                        <img src="{{ $generalSettings['log'] }}" class="img-cover" alt="footer logo">--}}
+{{--                    @endif--}}
                 </a>
             </div>
             <div class="footer-social">
